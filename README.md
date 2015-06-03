@@ -1,4 +1,5 @@
-# Kitとは
+# Kit
+![](https://raw.githubusercontent.com/endows/kit/master/public/icon.png)
 commitとrollbackに特化したgitラッパーです。個人でアプリを開発している人のために作りました。
 ```
 # インストール
