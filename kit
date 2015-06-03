@@ -3,8 +3,9 @@
 case ARGV[0]
 when "create"
   Process.exec "git init && git remote add kit git@kit.endows.tk:#{ARGV[1]}"
+  puts "git@kit.endows.tk:#{ARGV[1]}"
 when "commit"
-  Process.exec "git add . && git commit -m 'q'"
+  Process.exec "git init && git add . && git commit -m 'q'"
 when "push"
   Process.exec "git push kit master"
 when "rollback"
