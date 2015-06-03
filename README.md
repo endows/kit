@@ -1,10 +1,11 @@
 # Kitとは
 commitとrollbackに特化したgitラッパーです。個人でアプリを開発している人のために作りました。
-
-# 使い方
 ```
 # インストール
 curl https://raw.githubusercontent.com/endows/kit/master/install.sh | sudo bash
+```
+# 使い方
+```
 cd myProject
 # 変更を保存
 kit commit
